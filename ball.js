@@ -70,7 +70,7 @@ class Ball {
   diplay(){
     noStroke();
     fill(this.r,this.g,this.b);
-    ellipse(this.x, this.y, this.diameter, this.diameter);
+    ellipse(this.x, this.y, this.diameter+abs(this.xvel), this.diameter+abs(this.yvel));
   }
 }
 //+abs(this.xvel)
