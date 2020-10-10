@@ -1,36 +1,30 @@
-function include(file) {
-  var script  = document.createElement('script');
-  script.src  = file;
-  script.type = 'text/javascript';
-  script.defer = true;
-  document.getElementsByTagName('head').item(0).appendChild(script);
-}
 
-include('./ball.js');
-
-var ball_list = [];
-const BALLCOUNT = 100;
+var balllist = [];
+var ui_list = [];
 
 function setup() {
-  win.width = window.displayWidth;
-  win.height = window.displayHeight
-  createCanvas(win.width,win.height);
-  background(250,250,100);
-
-  for(let i = 0;i <BALLCOUNT;i++){
-    ball_list.push(new Ball());
-  }
-
-
+    win.width = window.displayWidth;
+    win.height = window.displayHeight;
+    createCanvas(win.width,win.height);
+    background(50,50,50);
+    balllist = initball();
+    ui_list.push(new MainMenu_box());
 }
 
-
-
 function draw() {
-  background(250,250,100);
+    background(50,50,50);
+    for(let i = 0; i < balllist.length;i++){
+        balllist[i].scoot();
+        balllist[i].collide_with_ui(ui_list);
+        balllist[i].diplay();
+    }
+    for(let i=0; i < ui_list.length;i++){
+        ui_list[i].display();
 
-  for(let i = 0; i < ball_list.length;i++){
-    ball_list[i].scoot();
-    ball_list[i].diplay();
-  }
+    }
+}
+function mousePressed(){
+    console.log("Click");
+    balllist.push(addball());
+    balllist.shift();
 }
