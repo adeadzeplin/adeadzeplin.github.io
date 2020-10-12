@@ -110,7 +110,7 @@ class Ball {
 function addball(){
     return new Ball(mouseX,mouseY);
 }
-const MAXBALLS = 5;
+const MAXBALLS = 100;
 function initball(){
     const BALLCOUNT = 1;
     var ball_list = [];
