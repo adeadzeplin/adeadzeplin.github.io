@@ -20,7 +20,7 @@ class Ball {
 
         this.diameter = 0;
         this.diameter_base = random(5,20);
-        this.diameter_max = 100;
+        this.diameter_max = 50;
         this.xvel = random(-1,1);
         this.yvel = random(-1,1);
         this.xacel = random(-1,1)/5;
@@ -77,8 +77,8 @@ class Ball {
             if ((this.x + (this.diameter+abs(this.xvel))/2 > temp.x) && (this.x <temp.x + temp.w+(this.diameter+abs(this.xvel))/2)) {
                 if ((this.y + (this.diameter+abs(this.yvel))/2 > temp.y) && (this.y <temp.y + temp.h+(this.diameter+abs(this.yvel))/2)) {
                     //COLLISION
-                    let depthx = ((this.x)-(temp.x+temp.w/2))*1.1;
-                    let depthy = ((this.y)-(temp.y+temp.h/2))*1.1;
+                    let depthx = ((this.x)-(temp.x+temp.w/2))*2;
+                    let depthy = ((this.y)-(temp.y+temp.h/2))*4;
                     // console.log(depthx);
                     this.xvel+= normalizeAVec(depthx,depthy)*2;
                     this.yvel+= normalizeAVec(depthy,depthx*2);
