@@ -12,7 +12,8 @@ const background_color = 50;
 function setup() {
     // win.width = window.displayWidth;
     // win.height = window.displayHeight;
-    createCanvas(window.displayWidth,window.displayHeight*1.5);
+    box_kid_height = window.displayHeight*3-500;
+    createCanvas(window.displayWidth,window.displayHeight*3);
     background(background_color);
     balllist = initball();
     ui_list = construct_main_menu(ui_list);

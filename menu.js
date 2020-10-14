@@ -1,7 +1,7 @@
 const box__height = 100;
-const box__width = 150;
-var box_kid_height;
-var box_kid_width;
+const box__width = 200;
+var box_kid_height = 1000;
+var box_kid_width = 1000-150;
 // console.log(window.displayWidth);
 var menu_top = 50;
 var menu_bottom = 0;
@@ -46,27 +46,27 @@ class Menu_box{
 
 
     constructor(startx,starty,width,height,txt,with_child=false){
-        this.scale = {
-            x:window.displayWidth/(window.displayWidth*window.displayHeight)*1000,
-            y:window.displayHeight/(window.displayWidth*window.displayHeight)*1000
-        }
+        // this.scale = {
+        //     x:window.displayWidth/(window.displayWidth*window.displayHeight)*1000,
+        //     y:window.displayHeight/(window.displayWidth*window.displayHeight)*1000
+        // }
         this.parent = with_child;
         this.startx = startx;
         this.starty = starty;
-        this.x = startx*this.scale.x;
-        this.y = starty*this.scale.y;
+        this.x = startx//*this.scale.x;
+        this.y = starty//*this.scale.y;
         this.bulge = 10;
         this.highlighted = false;
         this.boxheight = height;
         this.boxwidth = width;
         this.col = base;
-        this.w = this.boxwidth*this.scale.x;
-        this.h = this.boxheight*this.scale.y;
+        this.w = this.boxwidth//*this.scale.x;
+        this.h = this.boxheight//*this.scale.y;
 
         this.kid;
         if(with_child){
             this.txt = txt.main;
-            this.kid = new Menu_box(this.startx + this.w*.6 + scootch, scootch*this.scale.y*2,(window.displayWidth*.47),window.displayHeight*2,txt);
+            this.kid = new Menu_box(this.startx + this.w + scootch, scootch*2,box_kid_width ,box_kid_height,txt);
             this.kid.highlighted = true;
 
         }
@@ -83,10 +83,10 @@ class Menu_box{
     display(){
         if(this.highlighted == true){
             this.col = highlight;
-            this.x = this.startx*this.scale.x - this.bulge;
-            this.y = menu_height + this.starty*this.scale.y - this.bulge;
-            this.w = this.boxwidth*this.scale.x + this.bulge*2;
-            this.h = this.boxheight*this.scale.y + this.bulge*2;
+            this.x = this.startx - this.bulge;
+            this.y = menu_height + this.starty - this.bulge;
+            this.w = this.boxwidth+ this.bulge*2;
+            this.h = this.boxheight + this.bulge*2;
             if(this.parent){
                 this.kid.col = highlight;
                 this.kid.display();
@@ -98,10 +98,10 @@ class Menu_box{
             if(this.parent){
                 this.kid.col = base;
             }
-            this.x = this.startx*this.scale.x;
-            this.y = (menu_height + this.starty)*this.scale.y;
-            this.w = this.boxwidth*this.scale.x;
-            this.h = this.boxheight*this.scale.y;
+            this.x = this.startx;
+            this.y = (menu_height + this.starty);
+            this.w = this.boxwidth;
+            this.h = this.boxheight;
         }
         fill(this.col);
         rect(this.x, this.y, this.w, this.h);
@@ -134,14 +134,14 @@ class Menu_box{
     shiftUI(){
         if(menu_bottom < mouseY){
             console.log('Shift: ' + menu_bottom);
-                this.starty += mouseY - menu_bottom;
+                this.starty += 10;
                 menu_top += 5;
 
         }
         else if((menu_top > mouseY)&&(menu_top > 50)){
 
             console.log('Shift: ' + menu_top);
-                this.starty += mouseY - menu_top;
+                this.starty -= 10;
                 menu_bottom -=5;
 
             // if(menu_top < 50){
