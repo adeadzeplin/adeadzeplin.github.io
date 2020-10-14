@@ -22,11 +22,8 @@ var about = {
             '\nzoom'+
             '\nout'+
             '\nand'+
-            '\nrefresh'+
-            '\n\nIf on'+
-            '\nmobile'+
-            '\nswitch to'+
-            '\ndesktop'
+            '\nrefresh'
+
             ,
 }
 var work = {
