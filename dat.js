@@ -22,7 +22,11 @@ var about = {
             '\nzoom'+
             '\nout'+
             '\nand'+
-            '\nrefresh'
+            '\nrefresh'+
+            '\n\nIf on'+
+            '\nmobile'+
+            '\nswitch to'+
+            '\ndesktop'
             ,
 }
 var work = {
