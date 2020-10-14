@@ -13,7 +13,7 @@ function setup() {
     // win.width = window.displayWidth;
     // win.height = window.displayHeight;
     box_kid_height = window.displayHeight*3-500;
-    createCanvas(window.displayWidth,window.displayHeight*3);
+    createCanvas(1600,900*3);
     background(background_color);
     balllist = initball();
     ui_list = construct_main_menu(ui_list);
