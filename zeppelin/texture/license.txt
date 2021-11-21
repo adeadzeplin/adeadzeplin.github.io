@@ -1,0 +1,11 @@
+Model Information:
+* title:	Grass Material
+* source:	https://sketchfab.com/3d-models/grass-material-12e4cdc21ac44632b0cc23713f07c646
+* author:	ZpaintSl (https://sketchfab.com/ZpaintSlash)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Grass Material" (https://sketchfab.com/3d-models/grass-material-12e4cdc21ac44632b0cc23713f07c646) by ZpaintSl (https://sketchfab.com/ZpaintSlash) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

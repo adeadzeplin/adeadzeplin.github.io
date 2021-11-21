@@ -1,0 +1,414 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1372,
+      "max": [
+        221.26983642578125,
+        263.25018310546875,
+        732.626220703125
+      ],
+      "min": [
+        -221.26983642578125,
+        0,
+        -734.98828125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16464,
+      "componentType": 5126,
+      "count": 1372,
+      "max": [
+        0.99998700618743896,
+        1,
+        0.99998700618743896
+      ],
+      "min": [
+        -0.99998700618743896,
+        -1,
+        -0.99997442960739136
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1372,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 3372,
+      "max": [
+        1371
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32928,
+      "componentType": 5126,
+      "count": 555,
+      "max": [
+        212.07911682128906,
+        218.97309875488281,
+        794.769287109375
+      ],
+      "min": [
+        -196.69575500488281,
+        182.25241088867188,
+        -794.769287109375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 39588,
+      "componentType": 5126,
+      "count": 555,
+      "max": [
+        0.99999988079071045,
+        1,
+        1
+      ],
+      "min": [
+        -0.99999988079071045,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10976,
+      "componentType": 5126,
+      "count": 555,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 13488,
+      "componentType": 5125,
+      "count": 1452,
+      "max": [
+        554
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 46248,
+      "componentType": 5126,
+      "count": 784,
+      "max": [
+        220.39407348632812,
+        211.27598571777344,
+        478.13613891601562
+      ],
+      "min": [
+        -202.28872680664062,
+        184.35354614257812,
+        -792.99176025390625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 55656,
+      "componentType": 5126,
+      "count": 784,
+      "max": [
+        0.92810326814651489,
+        0.99997562170028687,
+        0.99994838237762451
+      ],
+      "min": [
+        -0.99987363815307617,
+        -0.99997562170028687,
+        -0.99998486042022705
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 15416,
+      "componentType": 5126,
+      "count": 784,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 19296,
+      "componentType": 5125,
+      "count": 1980,
+      "max": [
+        783
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "mixed6 (https://sketchfab.com/sic0211)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/low-poly-dock-bridge-f86c8863925c44b1a41170625cb1161d",
+      "title": "Low Poly Dock Bridge"
+    },
+    "generator": "Sketchfab-7.91.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 27216,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21688,
+      "byteOffset": 27216,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 65064,
+      "byteOffset": 48904,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 113968,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Wood1.1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.80000000000000004,
+          0.63800000000000001,
+          0.44,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Wood1.2",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.80000000000000004,
+          0.59599999999999997,
+          0.44,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Wood1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.80000000000000004,
+          0.69199999999999995,
+          0.44,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Boat_Dock_Wood1.1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Boat_Dock_Wood1.2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Boat_Dock_Wood1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "e36da92feaee45a2a79379486895d12d.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7
+      ],
+      "name": "Boat_Dock"
+    },
+    {
+      "mesh": 0,
+      "name": "Boat_Dock_Wood1.1_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Boat_Dock_Wood1.2_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Boat_Dock_Wood1_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
