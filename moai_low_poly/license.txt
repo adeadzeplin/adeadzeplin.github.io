@@ -1,0 +1,11 @@
+Model Information:
+* title:	Moai Low Poly
+* source:	https://sketchfab.com/3d-models/moai-low-poly-54cd39dda88e4ebeb2a0f67f768c379a
+* author:	Andres Bonomi (https://sketchfab.com/AB3DDesign)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Moai Low Poly" (https://sketchfab.com/3d-models/moai-low-poly-54cd39dda88e4ebeb2a0f67f768c379a) by Andres Bonomi (https://sketchfab.com/AB3DDesign) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
